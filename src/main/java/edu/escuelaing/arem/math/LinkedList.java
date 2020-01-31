@@ -11,7 +11,7 @@ public class LinkedList<T> implements List<T>, Iterable<T> {
     int size;
     boolean wasCreated;
 
-    LinkedList() {
+    public LinkedList() {
         this.head = new Head<T>(null, null);
         size = 0;
     }
