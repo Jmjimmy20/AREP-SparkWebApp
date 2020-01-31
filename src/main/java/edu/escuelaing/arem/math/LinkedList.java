@@ -95,6 +95,7 @@ public class LinkedList<T> implements List<T>, Iterable<T> {
     public boolean addAll(int index,  Collection<? extends T> c) {
         // TODO Auto-generated method stub
         return false;
+        
     }
 
 
